@@ -8,7 +8,7 @@ const SocialLink = ({ ulLink, aLink }) => {
         const { id, href, icon } = item;
         return (
           <li key={id}>
-            <a href={href} target="_blank" className={aLink}>
+            <a href={href} target="_blank" className={aLink} rel="noreferrer">
               <i className={icon}></i>
             </a>
           </li>
